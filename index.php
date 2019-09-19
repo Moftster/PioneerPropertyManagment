@@ -3,10 +3,106 @@
 
     <div class="container">
 
-    <h1>Pioneer Property Management</h1>
+      <!-- SERVICES -->
+
+      <div class="container home-section">
+        <div style="margin-top: 100px;" class="row">
+          <div class="col-lg-4">
+            <img class="icons-center" src="images/contract.png" width="140" height="140">
+            <h2 class="text-center">Lettings</h2>
+            <p class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="icons-center" src="images/house.png" width="140" height="140">
+            <h2 class="text-center">Management</h2>
+            <p class="text-center">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img img class="icons-center" src="images/wrench.png" width="140" height="140">
+            <h2 class="text-center">Maintenance</h2>
+            <p class="text-center">Donec sed odio dui. Dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>
 
 
+    <!-- ABOUT -->
 
+    <div class="home-section">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="slides first-slide" src="images/london-sky-2.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1 class="banner-text">Example headline.</h1>
+                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slides second-slide" src="images/interior.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1 class="banner-text">Another example headline.</h1>
+                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slides third-slide" src="images/more-houses-3.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1 class="banner-text">One more for good measure.</h1>
+                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <hr>
+
+      <div class="row featurette">
+        <div class="col-md-5 order-md-2">
+          <img class="featurette-image img-fluid mx-auto" src="images/mews.jpg" alt="Mews">
+        </div>
+         <div class="col-md-7 order-md-1">
+           <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+         </div>
+
+       </div>
+     </div>
+
+
+       <!--CONTACT -->
+       <div class="home-section">
+
+       <div class="row featurette">
+         <div class="col-md-2 order-md-1">
+           <img class="featurette-image img-fluid mx-auto" src="images/mews.jpg" alt="Mews">
+         </div>
+          <div class="col-md-8 order-md-2">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+
+        </div>
+      </div>
 
 
 

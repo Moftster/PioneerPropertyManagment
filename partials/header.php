@@ -10,21 +10,43 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
 
     <title>Pioneer Property Management</title>
 
   </head>
 
-  <div class="jumbotron">
-    <h1>Pioneer Property Management</h1>
+  <header>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-           <ul class="nav navbar-nav navbar-right">
-               <li><a href="#">Home</a></li>
-               <li><a href="#services">Services</a></li>
-               <li><a href="#works">Works</a></li>
-               <li><a href="#about">About</a></li>
-               <li><a href="#contact">Contact</a></li>
-           </ul>
+  <div class="header-banner">
+
+    <nav class="navbar navbar navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto navbar-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-  </div>
+
+    <div class="header-text">
+      <h1>Pioneer</h1>
+      <h6>Property Management</h6>
+    </div>
+
+    </div>
+
+  </header>
