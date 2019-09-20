@@ -5,7 +5,7 @@
 
       <!-- SERVICES -->
 
-      <div class="container home-section">
+      <div id="services" class="container home-section">
         <div style="margin-top: 100px;" class="row">
           <div class="col-lg-4">
             <img class="icons-center" src="images/contract.png" width="140" height="140">
@@ -28,7 +28,7 @@
 
     <!-- ABOUT -->
 
-    <div class="home-section">
+    <div id="about" class="home-section">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -90,14 +90,34 @@
 
 
        <!--CONTACT -->
-       <div class="home-section">
+       <div id="contact" class="home-section">
 
        <div class="row featurette">
-         <div class="col-md-2 order-md-1">
-           <img class="featurette-image img-fluid mx-auto" src="images/mews.jpg" alt="Mews">
-         </div>
-          <div class="col-md-8 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+         <div class="col-md-7">
+              <!--The div element for the map -->
+              <div id="map"></div>
+              <script>
+          // Initialize and add the map
+          function initMap() {
+            // The location of Uluru
+            var pioneer = {lat: 51.457595, lng: -0.120814};
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 16, center: pioneer});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: pioneer, map: map});
+          }
+              </script>
+              <!--Load the API from the specified URL
+              * The async attribute allows the browser to render the page while the API loads
+              * The key parameter will contain your own API key (which is not needed for this tutorial)
+              * The callback parameter executes the initMap() function
+              -->
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCChCsAsT8MfQsp-w8mfjZDGOVolzAYr6k&callback=initMap">
+              </script>         </div>
+          <div class="col-md-4">
+            <h2 class="featurette-heading">Contact</h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
 
