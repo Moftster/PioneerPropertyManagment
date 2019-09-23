@@ -107,7 +107,7 @@
             // The marker, positioned at Uluru
             var marker = new google.maps.Marker({position: pioneer, map: map});
           }
-              </script>
+              </script> -->
               <!--Load the API from the specified URL
               * The async attribute allows the browser to render the page while the API loads
               * The key parameter will contain your own API key (which is not needed for this tutorial)
@@ -115,7 +115,10 @@
               -->
               <script async defer
               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCChCsAsT8MfQsp-w8mfjZDGOVolzAYr6k&callback=initMap">
-              </script>         </div>
+              </script>
+
+              <script src="/api/js/googlemaps.js"></script>
+             </div>
           <div class="col-md-4">
             <dl>
             <dd>
