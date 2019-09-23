@@ -18,29 +18,31 @@
 
   <header>
 
+
   <div class="header-banner">
 
-    <nav class="navbar navbar navbar-expand-lg">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="topnav">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto navbar-right">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home </a>
-          </li>
-          <li class="nav-item">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav navbar-right ml-auto">
+          <li class="nav-item ml-auto">
             <a class="nav-link" href="#services">Services</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ml-auto">
             <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ml-auto">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
+  </div>
 
     <div class="header-text">
       <h1>Pioneer</h1>
