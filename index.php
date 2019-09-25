@@ -10,7 +10,7 @@
           <div class="col-lg-4">
             <img class="icons-center" src="images/contract.png" width="140" height="140">
             <h2 class="text-center">Lettings</h2>
-            <p class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p class="text-center"> Whether you're a landlord in need of advice or a tenant searching for a rental property we can help.</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="icons-center" src="images/house.png" width="140" height="140">
@@ -107,7 +107,7 @@
             // The marker, positioned at Uluru
             var marker = new google.maps.Marker({position: pioneer, map: map});
           }
-              </script> -->
+              </script>
               <!--Load the API from the specified URL
               * The async attribute allows the browser to render the page while the API loads
               * The key parameter will contain your own API key (which is not needed for this tutorial)

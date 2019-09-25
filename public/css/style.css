@@ -66,6 +66,10 @@ html {
    margin-bottom: 10px;
  }
 
+#footer {
+  background-color: #f2f2f2;
+}
+
  @media only screen and (max-width: 786px) {
 
    .header-banner {
@@ -77,7 +81,7 @@ html {
 
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
 
   .header-banner {
     height: 350px;
@@ -95,9 +99,9 @@ html {
 
   about.home-section {
     padding-top: 0px;
-    margin-top: 5px;
+    margin-top: 3px;
     padding-bottom: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   .slides {
@@ -117,7 +121,7 @@ html {
   .carousel-caption {
     margin-bottom: 10px;
     font-size: 14px !important;
-
   }
+
 
 }
