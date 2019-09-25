@@ -41,7 +41,7 @@
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1 class="banner-text">Example headline.</h1>
-                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1 class="banner-text">Another example headline.</h1>
-                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1 class="banner-text">One more for good measure.</h1>
-                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p class="banner-text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
               </div>
             </div>
           </div>

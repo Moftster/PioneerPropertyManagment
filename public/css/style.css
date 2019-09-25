@@ -23,7 +23,6 @@
   margin-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-
 }
 
 .icons-center {
@@ -51,6 +50,7 @@ width: 100%;
 
 .banner-text {
   color: white;
+  padding: 3px;
 }
 
 html {
@@ -65,3 +65,59 @@ html {
  .drop-down-toggler {
    margin-bottom: 10px;
  }
+
+ @media only screen and (max-width: 786px) {
+
+   .header-banner {
+     height: 350px;
+     background-image: url(/images/row-houses.jpg);
+     background-position: bottom;
+     background-size: cover;
+   }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  .header-banner {
+    height: 350px;
+    background-image: url(/images/row-houses.jpg);
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .home-section {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+
+  about.home-section {
+    padding-top: 0px;
+    margin-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+
+  .slides {
+    height: 220px;;
+
+    }
+
+  .banner-text {
+    padding: 3px;
+    font-size: 20px;
+  }
+
+  .text-center {
+    text-align: middle;
+  }
+
+  .carousel-caption {
+    margin-bottom: 10px;
+    font-size: 14px !important;
+
+  }
+
+}
