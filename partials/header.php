@@ -45,8 +45,9 @@
   </div>
 
     <div class="header-text">
-      <h1>Pioneer</h1>
-      <h6>Property Management</h6>
+      <!-- <h1>Pioneer</h1>
+      <h6>Property Management</h6> -->
+      <img class="" src="images/logo/logo-borderX.png" width="" height="200px">
     </div>
 
     </div>
