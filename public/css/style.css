@@ -53,11 +53,11 @@ body {
 .slides {
 width: 100%;
 height: 400px;
--webkit-filter: blur(2px); //change the value according to what suits the best
+/* -webkit-filter: blur(2px); //change the value according to what suits the best
 -moz-filter: blur(2px); //change the value according to what suits the best
 -o-filter: blur(2px); //change the value according to what suits the best
 -ms-filter: blur(2px); //change the value according to what suits the best
-filter: blur(2px); //change the value according to what suits the best
+filter: blur(2px); //change the value according to what suits the best */
 }
 
 .bg-dark {
@@ -66,6 +66,13 @@ filter: blur(2px); //change the value according to what suits the best
 
 .carousel-caption {
   margin-bottom: 100px;
+  background-color: #282828;
+  opacity: 0.86;
+  padding-left: 2%;
+  margin-right: 38%;
+  padding-bottom: 2%;
+  width: 40%;
+  border-radius: 20px;
 }
 
 .featurette-image {
@@ -73,11 +80,8 @@ width: 100%;
 }
 
 .banner-text {
-
-  color: black;
+  color: white;
   padding: 3px;
-  text-shadow: 0.5px 0.5px white;
-  font-weight: 600;
 }
 
 html {

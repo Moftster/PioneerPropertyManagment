@@ -10,17 +10,17 @@
           <div class="col-lg-4">
             <img class="icons-center" src="images/contract.png" width="140" height="140">
             <h2 class="text-center">Lettings</h2>
-            <p class="text-center"> Advice and services for landlords and tenants searching for a rental property.</p>
+            <p class="text-center banner-body-text"> Advice and services for landlords and tenants searching for a rental property.</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="icons-center" src="images/house.png" width="140" height="140">
             <h2 class="text-center">Management</h2>
-            <p class="text-center">Professional property management services from rent managed to fully managed.</p>
+            <p class="text-center banner-body-text">Professional property management services from rent managed to fully managed.</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img img class="icons-center" src="images/wrench.png" width="140" height="140">
             <h2 class="text-center">Maintenance</h2>
-            <p class="text-center">Residential and commercial building mantenance and high-quality refurbishment.</p>
+            <p class="text-center banner-body-text">Residential and commercial building mantenance and high-quality refurbishment.</p>
         </div><!-- /.row -->
       </div>
 
