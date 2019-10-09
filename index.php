@@ -32,7 +32,7 @@
     <div id="about" class="home-section">
       <div class="row featurette">
         <div class="col-md-5 order-md-2">
-          <img class="featurette-image img-fluid mx-auto" src="images/mews.jpg" alt="Mews">
+          <img class="featurette-image img-fluid mx-auto" src="images/mews-g.jpg" alt="Mews">
         </div>
          <div class="col-md-7 order-md-1">
            <h2 class="featurette-heading">Pioneer<span class="text-muted">ing Property Management</span></h2>
