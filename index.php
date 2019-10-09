@@ -6,7 +6,7 @@
       <!-- SERVICES -->
 
       <div id="services" class="container home-section">
-        <div style="margin-top: 100px;" class="row">
+        <div style="margin-top: 120px;" class="row">
           <div class="col-lg-4">
             <img class="icons-center" src="images/contract.png" width="140" height="140">
             <h2 class="text-center">Lettings</h2>
@@ -58,7 +58,7 @@
 
                  <div class="carousel-caption text-left">
                    <h1 class="banner-text">Better Service</h1>
-                   <p class="banner-text banner-text-p">Going the extra mile for tenants and landlords.</p>
+                   <p class="banner-text banner-text-p">Going the extra mile for landlords and tenants.</p>
                  </div>
                </div>
              </div>
