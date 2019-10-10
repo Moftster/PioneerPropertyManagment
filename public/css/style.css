@@ -107,12 +107,38 @@ html {
 
  @media only screen and (max-width: 786px) {
 
+   .carousel-caption {
+     margin-bottom: 40px;
+     background-color: #282828;
+     opacity: 0.86;
+     padding-left: 2%;
+     margin-right: 2%;
+     padding-bottom: 2%;
+     width: 70%;
+     border-radius: 10px;
+   }
+
+   .banner-text {
+     padding: 3px;
+     font-size: 34px;
+   }
+
+   .banner-text-p {
+     font-size: 24px;
+   }
+
+
    .header-banner {
      height: 350px;
      background-image: url(/images/gothic-header-1.jpg);
      background-position: bottom;
      background-size: cover;
    }
+
+   .slides {
+     height: 300px;
+
+     }
 
 }
 
@@ -127,6 +153,7 @@ html {
     padding-bottom: 2%;
     width: 70%;
     border-radius: 10px;
+    font-size: 14px !important;
 
     /* display: flex; */
     /* margin-left: auto;
@@ -176,11 +203,6 @@ html {
 
   .text-center {
     text-align: middle;
-  }
-
-  .carousel-caption {
-    margin-bottom: 10px;
-    font-size: 14px !important;
   }
 
 
