@@ -6,7 +6,7 @@
       <!-- SERVICES -->
 
       <div id="services" class="container home-section">
-        <div style="margin-top: 120px;" class="row">
+        <div style="" class="row">
           <div class="col-lg-4">
             <img class="icons-center" src="images/contract.png" width="140" height="140">
             <h2 class="text-center">Lettings</h2>
