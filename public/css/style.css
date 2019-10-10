@@ -3,7 +3,7 @@ body {
 }
 
 .header-banner {
-  height: 450px;
+  height: 400px;
   background-image: url(/images/gothic-header-1.jpg);
   background-position: bottom;
   background-size: cover;
@@ -39,12 +39,12 @@ body {
 }
 
 #services {
-  margin-bottom: 100px;
-  margin-top: 120px;
+  margin-top: 80px;
+  margin-bottom: 45px;
 }
 
 #about {
-  margin-bottom: 105px;
+  margin-bottom: 90px;
 }
 
 #contact {
