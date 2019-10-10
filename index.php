@@ -136,7 +136,7 @@
             </dl>
             <strong>Email:</strong>
             <br>
-            <p class="email"><a href="mailto:moji@pioneerpropertymanagement.co">moji@pioneerpropertymanagement.co</a></p>
+            <p class="email"><a href="mailto:moji@pioneerproperty.uk">moji@pioneerproperty.uk</a></p>
           </div>
 
         </div>
